@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body {
+top:110px;
+position: absolute;
+ width:100%;
+ height: 100%;
+ background-image: url('images/Zoo1.jpg');
+ background-size: cover;
+ text-align: center;
+ display: flex;
+ justify-content:center;
+}
+input{
+border: 3px solid #CC6600;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px; 
+}
+label{
+color:#000000;
+font-size: 120%;
+}
+form{
+text-align:center;
+}
+.btnAlign{
+ text-align:center;
+}
+.bth{
+background-color: #CC6600;
+color: #000000;
+width: 80px;
+  height: 30px; 
+}
+</style>
+<style>
+    button {
+    width: 50px;
+    height: 60px;
+    background-color: #cccccc;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+</style>
+<body>
+<form action="animals_master_action.jsp">
+<label>A_Name:</label> <input type="text" name="animalsname" required>
+<br><br>
+<label>A_Gender:</label> <input type="text" name="gender" required>
+<br><br>
+<label>A_Year:</label> <input type="text" name="Date_of_Birth" required>
+<br><br>
+<label>SID:</labe> <input type="text" name="SID" required>
+<br><br>
+<label>DID:</label> <input type="text" name="DID" required>
+<br><br>
+<label>KID:</label> <input type="text" name="KID" required>
+<br><br>
+<label>EID:</label> <input type="text" name="EID" required>
+<br><br>
+<div class="btnAlign">
+<button  class="bth" type="submit" value="Save">Save</button>
+<button  class="bth" type="reset" value="Reset">Reset</buton >
+</div>
+</form>
+</body>
+</html>

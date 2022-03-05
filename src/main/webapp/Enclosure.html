@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+background-image:url('images/Zoo1.jpg');
+background-size : cover;
+background-repeat : no-repeat;
+width:1500px;
+height:750px;
+text-align:center;
+}
+input{
+margin-top:50px;
+}
+label{
+margin-top:50px;
+}  
+</style>
+</head>
+<body>
+<form action="Enclosure_action.jsp">
+<br>
+
+<label>Enclosure Type:</label>
+<input type="text" name="E_type" required>
+<br><br>
+
+<label>Enclosure Location:</label>
+<input type="text" name="E_location" required>
+<br>
+
+<button type="submit">Save</button>
+<button type="reset">Clear</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body{
+background-image:url('images/Zoo.jpg');
+background-size : cover;
+background-repeat : no-repeat;
+width:1500px;
+height:950px;
+text-align:center;
+}
+input{
+margin-top:50px;
+}
+label{
+margin-top:50px;
+}  
+</style>
+</head>
+<body>
+
+<form action="Keeper_action.jsp">
+<h1 style= "text-align:center">Registration Keeper</h1>
+<br>
+
+<label> Name:</label>
+<input type="text" name="K_name" id="name"required>
+<br><br>
+
+<label> Date Of Birth:</label>
+<input type="date" name="K_dob" required>
+<br>
+
+<label>Email:</label>
+<input type="email" name="K_email" required>
+<br>
+
+<label> Phone:</label>
+<input type="text" name="K_phone" required>
+<br>
+
+<label>Keeper Type:</label>
+<input type="text" name="K_type"required>
+<br>
+
+<button type="submit">Save</button>
+<button type="reset">Clear</button>
+</form>
+</body>
+
+</html>
